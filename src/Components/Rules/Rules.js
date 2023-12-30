@@ -15,27 +15,19 @@ const Rules = ({isHomePage}) => {
         'rules-title' : "Bagchal Board Game",
         
         'briefing'    : `Bagchal (Baghchal / Tiger and Goat game) is a traditional Nepalese board game. It is a two player
-                        Board game. As acclaimed, back in the days it was played by hearders as a passtime while grazing cattles.`,
-        'briefing1'    : `Bagchal board is a 5 X 5 grid with 25 nodes interconnected with each other through edges.
+                        Board game. As acclaimed, back in the days it was played by hearders as a passtime while grazing cattles.Bagchal board is a 5 X 5 grid with 25 nodes interconnected with each other through edges.
                         "Bagh" means "Tiger" and "Chal" means "To-move".
+                        
                         Two players, one playing Tiger and the other playing Goats,
                         compete in a mind game of Bagchal.`,
-        'Bagchal Rules'    : {
-                        "Player Goat"   : [
-                                            `Player-Goat is provided with 20 goats all of which must be placed strategically on the board.
-                                            It is only when all the 20 goats are placed on the board, Player-Goat is allowed to maneuver the goats
-                                            along the edges/paths.`,
-                                            `Player-Goat must be mindful not to let tigers capture the goats. Tigers jump over goats to capture ( Illustration is show below).`,
-                                            `Player-Goat wins when all the tigers are trapped i.e. when every tiger has no valid moves left.`
-                                        ],
-                                    
-                        "Player Tiger"   : [`In the beginning, four tigers are spawnned at four coners of the board.
-                                            Player-Goat places their goats on the board and tries to corner and trap the tigers.`,
-                                            `Player-Tiger must aim to capture the goats. Tigers jump over goats to capture them.`,
-                                            `Player-Tiger wins when 5 goats are captured.`
-                                        ]
-                                    
-                        },
+        'briefing1'    : ` Tiger can move in any direction (guided by lines on the board), whereas goats firstly
+                        need to place wherever the player wants to place (in any unoccupied place) then after
+                        placing all 20 goats, they also move as tiger. Tigers can jump over goats, but not over
+                        other tigers or empty spaces. The game ends when either the tiger captures five goats,
+                        or the goat player prevents the tiger from making a legal move. Baghchal is a game of
+                        strategy, where both players need to think ahead and use their moves wisely.
+                        If Tiger has no legal move, he loses the game; if a certain number of goats have been
+                        killed (typically five), Goat loses.`,
         'draw-title' : 'Draw',
         'draw-briefing briefing' : `3 fold repetition rule has been implemented. If both players make redundant moves there are chances of draw.`
         

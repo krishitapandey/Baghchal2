@@ -144,13 +144,13 @@ const Status = ({showRules}) => {
             
         <div className="rules-status">
             <div className="rules-btn" >
-                <h1 className = "title-name" style={{'fontWeight' :'100','textAlign':'center'}}>Baghchal Rules</h1>
+                <h1 className = "title-name" style={{'fontWeight' :'100','textAlign':'center'}}>Baghchal Rule</h1>
                 <div className="rules" 
                 onMouseEnter={()=>{setIsHoveringRules(true)}} 
-                onMouseLeave={()=>{setIsHoveringRules(false)}} 
+                onMouseLeave={()=>{setIsHoveringRules(false)}}
                 >
                     <Link to = '/Baghchal/rules'>
-                        { (isHoveringRules || showRules) ? <GiChecklist color = 'rgb(13, 179, 185)' size={`3rem`}/> : <GiChecklist color = 'white' size={`3rem`}/>}
+                        { (isHoveringRules || showRules) ? <GiChecklist color = 'rgb(13, 179, 185)' size={`3rem`}/> : <GiChecklist color = 'black' size={`3rem`}/>}
                     </Link>
                 </div>
             </div>
@@ -219,18 +219,15 @@ const Status = ({showRules}) => {
                                 <span className="title-name">Goats Available </span>
                                 <span className="display-numbers">{statusArr[1]['available'].length} / 20 </span>
                             </div>
-                            <div className="status">
-                                <span className="title-name">Goats on board</span>
-                                <span className="display-numbers">{statusArr[1]['onBoard'].length} </span>
-                            </div>
+
                             <div className="status">
                                 <span className="title-name">Goats Captured</span>
-                                <span className="display-numbers">{statusArr[1]['eaten'].length} / 20</span>
+                                <span className="display-numbers">{statusArr[1]['eaten'].length} / 5 </span>
                             </div>
-                            <div className="status">
+                            {/* <div className="status">
                                 <span className="title-name">Tigers Trapped</span>
                                 <span className="display-numbers"> {statusArr[0]['trapStatus'].reduce((a,b)=>(a+b))} / 4</span>
-                            </div>   
+                            </div>    */}
                         </div>
 
                     

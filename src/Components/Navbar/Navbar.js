@@ -1,6 +1,6 @@
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-import logo from '../../assets/logo1.png'
+import logo from '../../assets/logoo.png'
 
 const Navbar = () => {
     const links = [];
@@ -19,8 +19,10 @@ const Navbar = () => {
                         )
                     })
 
+
                 }
                 </div>
+                
         </nav>
     );
 }

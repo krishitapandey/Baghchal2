@@ -17,7 +17,7 @@ a {
     /* filter: drop-shadow( 10px 6px 6px rgba(255, 255, 255, 0.2)); */
     text-decoration: none;
     font-size: 2rem;
-    width: 10rem;
+    width: 12rem;
     align-self: flex-start;
     margin-left: 2rem;
     transform: translateX(-3rem);
@@ -27,8 +27,8 @@ a {
 .main-nav__logo__img {
     position: absolute;
     margin-top: 0.1rem;
-    width: 10rem;
-    height: 11rem;
+    width: 12rem;
+    height: 15rem;
 }
 
 .main-nav__links {

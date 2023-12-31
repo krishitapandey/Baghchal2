@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 
 import MetaDecorator from '../../utils/MetaDecorator';
-import img1 from '../../assets/trapped.jpg'
-import img2 from '../../assets/jump.jpg'
+import img1 from '../../assets/draw1.png'
+import img2 from '../../assets/draw2.png'
 
 const Rules = ({isHomePage}) => {
     const [isHoveringCross,setIsHoveringCross]= useState(false);
@@ -29,7 +29,7 @@ const Rules = ({isHomePage}) => {
                         If Tiger has no legal move, he loses the game; if a certain number of goats have been
                         killed (typically five), Goat loses.`,
         'draw-title' : 'Draw',
-        'draw-briefing briefing' : `3 fold repetition rule has been implemented. If both players make redundant moves there are chances of draw.`
+        'draw-briefing briefing' : `In our app, we have also implemented the three-fold repetition rule. The threefold repetition rule states that a game will be a draw if the same position occurs three times during the game.`
         
 
     }
@@ -37,7 +37,7 @@ const Rules = ({isHomePage}) => {
         'Goat' : "disp-goat",
         'Tiger' : "disp-tiger"
     }
-    const imagePaths = [[img2,'Jump to capture'],[img1,'Trapped Tiger']];
+    const imagePaths = [[img2,'draw1'],[img1,'draw2']];
     const metaTag = {
         'title' :  isHomePage ? 'Bagchal':'Bagchal Rules',
         // based on keywords for SEO ;)

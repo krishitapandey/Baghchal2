@@ -24,7 +24,7 @@ function App() {
           <Routes>
             <Route path = "/" exact element={
               <>
-                <Canvas showRules = {true} isHomePage = {true}/>  {/*For landing page title --> in rules.js */}
+                <Canvas showRules = {false} isHomePage = {true}/>  {/*For landing page title --> in rules.js */}
                 <Status showRules = {true}/>
               </> 
             }/>

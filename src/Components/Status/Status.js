@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 import {GiGoat,GiTigerHead,GiChecklist } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
 import { RiComputerFill} from "react-icons/ri";
-
-
-
 import { useState,useRef } from 'react';
 import { IconContext } from 'react-icons';
 import _ from 'lodash';

@@ -1,8 +1,7 @@
 .rules-container {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    will-change: transform, opacity;
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1rem 0 !important;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem 4rem 1rem 3rem;
+    margin: 1rem 0!important;
     width: 100%;
     height: 100%;
     font-size: 1.5rem;
@@ -30,8 +29,9 @@
 }
 
 .draw-title {
-    font-weight: 600;
+    font-weight: 6rem;
     margin: 1rem 0;
+    font-size: 2rem;
 }
 
 .description-container {
@@ -44,8 +44,8 @@
     min-height: 45%;
 }
 
-.description-container .disp-goat,
-.description-container .disp-tiger {
+.description-container,
+.description-container {
     width: 10rem;
     padding: 6rem;
     border-radius: 0;
@@ -56,7 +56,6 @@
     padding-top: 1rem;
     line-height: 2rem;
     text-align: justify;
-    background-image: '../../assets/goatt.jpeg';
 }
 
 .briefing {
@@ -213,13 +212,12 @@
     color: black;
 }
 
-.disp-goat {
+
+/* .disp-goat {
     height: 100%;
     background-image: url('../../assets/wha.png');
 }
 
 .disp-tiger {
-    /* ... other styles */
     background-image: url('../../assets/tt.avif');
-    /* ... other styles */
-}
+} */
